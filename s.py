@@ -3,7 +3,7 @@ import subprocess
 import struct
 
 HOST = "0.0.0.0"
-PORT = 5055
+PORT = 5050
 PASSWORD = "secret123"
 
 def recv_exact(conn, size):
